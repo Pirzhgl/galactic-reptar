@@ -1,0 +1,24 @@
+1. A Compiler
+2. z = Math.max(x,y);
+3. byte
+   short
+   int
+   long
+   float
+   double
+4. UTF-16
+5. String s = "item\fifteen";
+6. break
+7. abraham%lincoln = invalid Java identifier (A)
+   rexStout = Java variable or method name (C)
+   SAMWISE_GAMGEE = Java constant (B)
+   1goodVariable = (A)
+   onoMoToPoEia = (E)
+8. 12Welcome5
+9. x is 9.9 and y is 9
+10. would not print anything
+11. 20
+12. x = (int)y*z;
+13. 2
+14. In a class called ForLoop in this directory.
+15. In a class called JavaApplication in this directory
