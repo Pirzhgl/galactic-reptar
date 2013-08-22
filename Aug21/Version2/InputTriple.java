@@ -23,6 +23,7 @@ public class InputTriple {
       if(conversionBase < 2 || conversionBase > 36)
          valid = false;
       return valid;
+      
    }
    
    

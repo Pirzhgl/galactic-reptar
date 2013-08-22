@@ -19,7 +19,7 @@ public class BaseConversion {
    
    private static void print(NumberInBase input, NumberInBase converted) {
       System.out.println(input.getNumber() + " in base " + input.getBase() + " has been converted to " + 
-      converted.getNumber() + "in base " + converted.getBase());
+      converted.getNumber() + " in base " + converted.getBase());
    }
 
    private static void print(InputTriple triple){
