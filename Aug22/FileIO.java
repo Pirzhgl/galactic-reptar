@@ -21,8 +21,7 @@ public class FileIO {
       // pumping methodology for input
       
       String line = lineScan.nextLine();
-      while(!(line.startsWith("stop"))) {
-         // process
+      while(!(line.startsWith("quit"))) {
          Scanner stringScan = new Scanner(line);
          while(stringScan.hasNext()) {
             String word = stringScan.next();
