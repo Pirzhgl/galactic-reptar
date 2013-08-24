@@ -24,11 +24,15 @@ public class RationalNumbers {
       File outFile = new File(args[1]);
       Scanner fileInput = new Scanner(inFile);
       PrintStream fileOutput = new PrintStream(outFile);
-      Fraction fraction = new Fraction(5,5);
-      
+            
       String lineOfFile = fileInput.nextLine();
       while(!(lineOfFile.regionMatches(true, 0, "quit", 0, 3))) {
+         // need a new fraction each iteration
+         GetFraction getFraction = new GetFraction();
+         Fraction fraction = new Fraction(getFraction.getNumerator(), 
+         getFraction.getDenominator());
          
+                         
          fileOutput.println(lineOfFile);
          fileOutput.println(fraction.reduce());
          fileOutput.println(fraction.perform());

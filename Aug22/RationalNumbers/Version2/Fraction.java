@@ -4,46 +4,61 @@ public class Fraction {
    private boolean undefined = false;
    
    
-   // first check if undefined before setting...double check may not be good...
+   // Constructor
+   // Check if not undef before constructing fraction.
    public Fraction(int num, int den) {
+      checkFraction(den);
       if (!undefined) {
          setNumerator(num);
          setDenominator(den);
       }
+      else {
+         checkFraction(den);
+      }
    }
    
-   // call this first with denominator before constructor?????
-   public void checkFraction(int den) {
+   // Calling this method checks the fraction
+   // for undefined.
+   // Want to do this before performing any
+   // operations.
+   private String checkFraction(int den) {
       if (den != 0)
          undefined = false;
       else
          undefined = true;
+         return "undefined";
    }
    
-   // don't care what num is just set it
-   public void setNumerator(int num) {
+   // Numerator does not matter
+   // just set it.
+   private void setNumerator(int num) {
       this.num = num;
    }
    
-   // if not undefined (den not 0) set denominator
-   public void setDenominator(int den) {
+   // If not undefined, set the denominator
+   // to the input.
+   // If it is undefined, do nothing..
+   // checkFraction will handle and
+   // return a string
+   private void setDenominator(int den) {
       if(!undefined) {
          this.den = den;
       }
       else {
-         // show it is undefined somehow
+         // does nothing
       }
          
-     
    }
+   
+   // USE Integer.toString()!!!!!!!!!
    
    public String reduce() {
       return "101";
-     // stub
    }
    
    public String perform() {
       return "100";
+      // stub
    }
    
    public String toString() {
