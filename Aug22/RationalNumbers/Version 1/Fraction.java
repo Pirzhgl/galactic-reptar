@@ -31,7 +31,7 @@ public class Fraction {
       and identify operations on the fracitons
    */
 	public Fraction(String entireLine) {
-
+      // stub
 	}
  
    /* Algorithm
@@ -39,6 +39,7 @@ public class Fraction {
       if it is zero set undefiend to true
    */
    public void checkFraction() {
+      // stub
    }
    
 
@@ -46,6 +47,7 @@ public class Fraction {
       prints a reduced fraction as a string
    */
 	public String reduce() {
+      // stub
       return "";
      
 	}
@@ -54,6 +56,7 @@ public class Fraction {
       returns the addition of two fractions
    */
 	public String add() {
+      // stub
 		return "Add fractions";
 	}
 
@@ -61,6 +64,7 @@ public class Fraction {
       returns the subtraction of two fractions
    */
 	public String subtract() {
+      // stub
 		return "Subtract fractions";
 	}
 
@@ -69,6 +73,7 @@ public class Fraction {
       fractions
    */
 	public String multiply() {
+      // stub
 		return "Multiply fractions";
 	}
 
@@ -76,6 +81,7 @@ public class Fraction {
       returns the division of two fractions
    */
    public String divide() {
+      // stub
 		return "Divide fractions";
 	}
 
@@ -83,6 +89,7 @@ public class Fraction {
       returns the reciprocal of a fraction
    */
 	public String reciprocal() {
+      // stub
 		return "Reciprocal fractions";
 	}
 
@@ -91,6 +98,7 @@ public class Fraction {
       returns answer
    */
 	public String toString() {
+      // stub
 		return "";			
 	}
 
