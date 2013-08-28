@@ -3,7 +3,7 @@ public class Fraction {
    private int numerator;
    private int denominator;
    private String answer = "";
-   private boolean undefined1 = false;
+   private boolean undefined = false;
 
 
 
@@ -14,24 +14,24 @@ public class Fraction {
    // complete
    public void checkFraction(int den) {
       if(den == 0) {
-         undefined1 = true;
+         undefined = true;
       }
       else {
-         undefined1 = false;
+         undefined = false;
       }
    }
    
-   public void setNumeratorStr(String num) {
-      
+   public int getNumerator() {
+      return numerator;
    }
    
-   public void setDenominatorStr(String den) {
-   
+   public int getDenominator() {
+      return denominator;
    }
 
 	public String reduce(int numerator, int denominator) {
    checkFraction(denominator);
-   if(!undefined1) {
+   if(!undefined) {
       int n = numerator;
       int d = denominator;
       int numerator1 = numerator;
@@ -97,7 +97,7 @@ public class Fraction {
 	}
 
 	public String toString() {
-		return answer;			
+		return "equals " + answer;			
 	}
 
 

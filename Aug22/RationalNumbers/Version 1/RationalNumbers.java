@@ -1,7 +1,7 @@
 /* Kyle Fagan
    CS 101-01
    Rational Numbers V1.0
-   Due Date: Monday Aug 26, 2013
+   Due Date: Thursday Aug 29, 2013
 */
 
 /*
@@ -25,13 +25,12 @@ main(args)
    Scanner fileInput <- Scanner(inFile)
    PrintStream fileOutput <- PrintStream(outFile)
    String lineOfFile <- fileInput.nextLine()
-   while(next line does not say quit)
+   while(lineOfFile.toLowerCase().indexOf("quit" == -1)
       fileOutput.println(lineOfFile)
-      Fraction fraction <- Fraction(lineOfFile)
-      if(fraction can be reduced)
-         fileOutput.println(reduced fraction)
-      fileOutput.println(fraction.solved())
-      lineOfFile <- fileInput.nextLine()
+      Fraction fraction = new Fraction(lineOfFile)
+      fileOutput.println("\t" + fraction.reduce())
+      fileOutput.println("\t" + fraction.toString())
+      lineOfFile = fileInput.nextLine()
 */
 import java.util.*;
 import java.io.*;
@@ -44,13 +43,11 @@ public class RationalNumbers {
 		Scanner fileInput = new Scanner(inFile);
 		PrintStream fileOutput = new PrintStream(outFile);
 		String lineOfFile = fileInput.nextLine();
-		while(!(lineOfFile.regionMatches(true,0,"quit",0,3))) {
+      while(lineOfFile.toLowerCase().indexOf("quit") == -1) {
 			fileOutput.println(lineOfFile);
 			Fraction fraction = new Fraction(lineOfFile);
-			if(fraction.canBeReduced()) {
-				fileOutput.println(fraction.reduced());
-			}
-			fileOutput.println(fraction.solved());
+         fileOutput.println("\t" + fraction.reduce());
+         fileOutput.println("\t" + fraction.toString());
 			lineOfFile = fileInput.nextLine();
 		}
 	}

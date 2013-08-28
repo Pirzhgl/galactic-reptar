@@ -12,11 +12,9 @@ public class RationalNumbers {
 		while(!(lineOfFile.regionMatches(true,0,"quit",0,3))) {
 			fileOutput.println(lineOfFile);
 			Fraction fraction = new Fraction(lineOfFile);
-			fileOutput.println(fraction.reduce(5,5));
+			fileOutput.println(fraction.reduce(fraction.getNumerator(),fraction.getDenominator()));
 			fileOutput.println(fraction.toString());
 			lineOfFile = fileInput.nextLine();
-         // testing some stuff
-         System.out.println(fraction.reciprocal(1,3));
 		}
 	}
 }
