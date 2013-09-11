@@ -1,11 +1,11 @@
 public class Sodoku {
 	public final int SODOKU_ROWS = 9;
 	public final int SODOKU_COLUMNS = 9;
-	private int [] [] sodoku = new int[SODOKU_ROWS][SODOKU_COLUMNS];
-   private boolean isValid = false;
+	private char [] [] sodoku = new char[SODOKU_ROWS][SODOKU_COLUMNS];
+   private boolean isValid = true;
    private boolean complete = false;
 
- 	public Sodoku(int [][] sodoku) {
+ 	public Sodoku(char [][] sodoku) {
 		// copy into array
  		for(int i=0; i < sodoku.length; i++) {
  			for(int j=0; j < sodoku[i].length; j++) {
@@ -32,7 +32,7 @@ public class Sodoku {
    
    private void checkColumns() {
       for(int i = 0; i < sodoku.length; i++) {
-         for(int j = 0; j < sodoku[j].length; j++) {
+         for(int j = 0; j < sodoku[i].length; j++) {
             
          }
       }
@@ -47,7 +47,8 @@ public class Sodoku {
    private void checkIfComplete() {
       for(int i = 0; i < sodoku.length; i++) {
          for(int j = 0; j < sodoku[i].length; j++) {
-            if(sodoku[i][j] == 0) {
+            char value = sodoku[i][j];
+            if(value == ' ') {
                complete = false;
             }
             else {
@@ -59,7 +60,7 @@ public class Sodoku {
    
    public String conclusion() {
       if(isValid && complete) {
-         return "Valid, compelte Sodoku.\n";
+         return "Valid, complete Sodoku.\n";
       }
       else if(isValid && !complete) {
          return "Valid, incomplete Sodoku.\n";
@@ -71,12 +72,13 @@ public class Sodoku {
    
    public String toString() {
       String toString = "";
+      checkIfComplete();
       return toString =  
                     sodoku[0][0] + " " + sodoku[0][1] + " " + sodoku[0][2]
                   + "|"
                   + sodoku[0][3] + " " + sodoku[0][4] + " " + sodoku[0][5]
                   + "|"
-                  + sodoku[0][6] + " " + sodoku[0][7] + " " + sodoku[0][9]
+                  + sodoku[0][6] + " " + sodoku[0][7] + " " + sodoku[0][8]
                   + "\n"
                   + sodoku[1][0] + " " + sodoku[1][1] + " " + sodoku[0][2]
                   + "|"
@@ -90,7 +92,7 @@ public class Sodoku {
                   + "|"
                   + sodoku[2][6] + " " + sodoku[2][7] + " " + sodoku[2][8]
                   + "\n"
-                  + "-------+-------+-------\n"
+                  + "-----+-----+-----\n"
                   + sodoku[3][0] + " " + sodoku[3][1] + " " + sodoku[3][2]
                   + "|"
                   + sodoku[3][3] + " " + sodoku[3][4] + " " + sodoku[3][5]
@@ -109,7 +111,7 @@ public class Sodoku {
                   + "|"
                   + sodoku[5][6] + " " + sodoku[5][7] + " " + sodoku[5][8]
                   + "\n"
-                  + "-------+-------+-------\n"
+                  + "-----+-----+-----\n"
                   + sodoku[6][0] + " " + sodoku[6][1] + " " + sodoku[6][2]
                   + "|"
                   + sodoku[6][3] + " " + sodoku[6][4] + " " + sodoku[6][5]
@@ -128,7 +130,5 @@ public class Sodoku {
                   + "|"
                   + sodoku[8][6] + " " + sodoku[8][7] + " " + sodoku[8][8]
                   + "\n";
-
-      
-   }
+    }  
 } 
