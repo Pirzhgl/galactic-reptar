@@ -285,7 +285,6 @@ public class Sodoku {
             char value <- sodoku[i][j]
             if(value == ' ')
                complete <- false
-		break;
             else
                complete <- true
    */

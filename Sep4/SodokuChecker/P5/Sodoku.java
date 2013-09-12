@@ -285,6 +285,7 @@ public class Sodoku {
             char value <- sodoku[i][j]
             if(value == ' ')
                complete <- false
+		break;
             else
                complete <- true
    */
@@ -294,6 +295,7 @@ public class Sodoku {
             char value = sodoku[i][j];
             if(value == ' ') { // any spaces = !complete
                complete = false;
+               break;
             }
             else {      // no spaces = complete
                complete = true;
