@@ -1,24 +1,96 @@
 Kyle Fagan
 CS101
 Section 01
+EntertainmentDatabase
 
-Echo Print of Input
+Echo Print of Input:
 
-a@03052013@Armin van Buuren@Intense@15@01:19:11
-a@17052013@Daft Punk@Random Access Memories@13@01:12:24
-a@06032006@Above & Beyond@Tri-State@13@01:00:14
-s@17052013@Daft Punk@Motherboard@Random Access Memories@00:05:42
-s@03032001@Daft Punk@Short Circuit@Discovery@00:03:27
-s@03032001@Daft Punk@Digital Love@Discovery@00:04:58
-s@01011999@Roy Davis Jr@Rock Shock@Soul Electrica@00:04:48
-m@15091995@United Artists@Hackers@Miller, Johnny Lee;Jolie, Angelina;Bradford, Jesse@01:47:00
-m@20061999@Turner Network Television@Pirates of Silicon Valley@Hall, Michael Anthony;Wyle, Noah;Slotnik, Joey@01:35:00
-m@01042011@Summit Entertainment@Source Code@Gyllenhaal, Jake;Monaghan Michelle;Farmiga, Vera@01:33:00
-m@19052006@Imagine Entertainment@The DaVinci Code@Hanks, Tom;Tautou, Audrey;Reno, Jean@02:29:00
-f@0-385-50420-9@04012003@Brown, Dan@The DaVinci Code@Mystery@454
-f@0-385-50120-X@02062001@Grisham, John@A Painted House@Thriller@465
-f@0-778-31459-6@01012013@Carr, Robyn@The Hero@Romance@394
-n@0-564-35643-5@02162010@Meadows, Alexander@How to be Phresh@Selph Helph@12
-n@0-978-31849-9@07122007@Learning Cocoa With Objective-C@Computer Science@14
-n@0-987-87220-@09011971@B.F. Skinner@Beyond Freedom and Dignity@18
+m@13012011@MGM@Star Trek 2, the Wrath of Khan@Leonard Nimoy@2:0:13
+m@29022000@RKO@George of the Jungle@Doris Day and Johnny Weismuller@1:33:27
+n@978-0-672-33624-9@01012013@Helmke, Matthew@Ubuntu Unleashed@Operating Systems@13
+m@30032012@Disney@Bourne Repitition@Matt Damon@2:12:59
+a@15071971@Moody Blues@Every Good Boy Deserves Favour@9@:40:8
+a@21041968@Moody Blues@In Search of the Lost Chord@9@0:42:17
+s@15071971@Moody Blues@Our Guessing Game@Every Good Boy Deserves Favour@0:5:43
+s@15071971@Moody Blues@One More Time to Live@Every Good Boy Deserves Favour@0:4:37
+a@03101965@The Beatles@Rubber Soul@14@0:37:42
+s@03101965@The Beatles@In My Life@Rubber Soul@0:2:38
+s@16081971@Moody Blues@The Story in her Eyes@Every Good Boy Deserves Favour@:6:2
+s@28061971@Jethro Tull@Aqualung@Aqualung@:6:31
+a@03011973@Pink Floyd@Dark Side of the Moon@9@:42:29
+m@13012011@Columbia@North by Northwest@Cary Grant@2:31:23
+a@02021963@Setrak A. Setrakian@Setrak Setrakian Performing Chopin@8@1:34:58
+f@0-135-X@14091978@Stout, Rex@Three for the Chair@Mystery@125
+m@13012011@RKO Radio@Randy Rides Alone@John Wayne@1:21:33
+f@872-9654@28091998@Tolkien, J. R. R.@The Hobbit@Fantasy@342
+n@9-342-875@25061956@Knuth, D.@The Art of Computer Programming@Computer Science@15
+n@76-0153-29@23021923@Anderson, J.@Java Illuminated@Computer Science@13
+f@2-723-X@17111982@Gardener, Earl@The Shapely Sillhouette@Mystery@93
+n@43-0135-47@19081931@Munkres@Topology@Math@16
+s@03111965@The Beatles@Tax Man@Rubber Soul@0:1:53
 
+Library Sorted by title:
+Title: Aqualung Artist: Jethro Tull Album: Aqualung Date: 06/28/1971 Run Time: 0:6:31
+Title: Bourne Repitition Studio: Disney Starring: Matt Damon Date: 03/30/2012 Run Time: 2:12:59
+Title: Dark Side of the Moon Artist: Pink Floyd Date: 01/03/1973 Number of Tracks: 9 Run Time:  0:42:29
+Title: Every Good Boy Deserves Favour Artist: Moody Blues Date: 07/15/1971 Number of Tracks: 9 Run Time:  0:40:8
+Title: George of the Jungle Studio: RKO Starring: Doris Day and Johnny Weismuller Date: 02/29/2000 Run Time: 1:33:27
+Title: In My Life Artist: The Beatles Album: Rubber Soul Date: 10/03/1965 Run Time: 0:2:38
+Title: In Search of the Lost Chord Artist: Moody Blues Date: 04/21/1968 Number of Tracks: 9 Run Time:  0:42:17
+Title: Java Illuminated Author: Anderson, J. Genre: Computer Science Reading Level: 13 ISBN: 76-0153-29
+Title: North by Northwest Studio: Columbia Starring: Cary Grant Date: 01/13/2011 Run Time: 2:31:23
+Title: One More Time to Live Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:4:37
+Title: Our Guessing Game Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:5:43
+Title: Randy Rides Alone Studio: RKO Radio Starring: John Wayne Date: 01/13/2011 Run Time: 1:21:33
+Title: Rubber Soul Artist: The Beatles Date: 10/03/1965 Number of Tracks: 14 Run Time:  0:37:42
+Title: Setrak Setrakian Performing Chopin Artist: Setrak A. Setrakian Date: 02/02/1963 Number of Tracks: 8 Run Time:  1:34:58
+Title: Star Trek 2, the Wrath of Khan Studio: MGM Starring: Leonard Nimoy Date: 01/13/2011 Run Time: 2:0:13
+Title: The Art of Computer Programming Author: Knuth, D. Genre: Computer Science Reading Level: 15 ISBN: 9-342-875
+Title: The Hobbit Author: Tolkien, J. R. R. Genre Fantasy Page Numbers: 342 ISBN: 872-9654 Date: 09/28/1998
+Title: The Shapely Sillhouette Author: Gardener, Earl Genre Mystery Page Numbers: 93 ISBN: 2-723-X Date: 11/17/1982
+Title: The Story in her Eyes Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 08/16/1971 Run Time: 0:6:2
+Title: Three for the Chair Author: Stout, Rex Genre Mystery Page Numbers: 125 ISBN: 0-135-X Date: 09/14/1978
+Title: Topology Author: Munkres Genre: Math Reading Level: 16 ISBN: 43-0135-47
+Title: Ubuntu Unleashed Author: Helmke, Matthew Genre: Operating Systems Reading Level: 13 ISBN: 978-0-672-33624-9
+
+Books Sorted by ISBN:
+Title: Three for the Chair Author: Stout, Rex Genre Mystery Page Numbers: 125 ISBN: 0-135-X Date: 09/14/1978
+Title: The Shapely Sillhouette Author: Gardener, Earl Genre Mystery Page Numbers: 93 ISBN: 2-723-X Date: 11/17/1982
+Title: Topology Author: Munkres Genre: Math Reading Level: 16 ISBN: 43-0135-47
+Title: Java Illuminated Author: Anderson, J. Genre: Computer Science Reading Level: 13 ISBN: 76-0153-29
+Title: The Hobbit Author: Tolkien, J. R. R. Genre Fantasy Page Numbers: 342 ISBN: 872-9654 Date: 09/28/1998
+Title: The Art of Computer Programming Author: Knuth, D. Genre: Computer Science Reading Level: 15 ISBN: 9-342-875
+Title: Ubuntu Unleashed Author: Helmke, Matthew Genre: Operating Systems Reading Level: 13 ISBN: 978-0-672-33624-9
+
+Songs Sorted by Album:
+Title: Aqualung Artist: Jethro Tull Album: Aqualung Date: 06/28/1971 Run Time: 0:6:31
+Title: One More Time to Live Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:4:37
+Title: Our Guessing Game Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:5:43
+Title: The Story in her Eyes Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 08/16/1971 Run Time: 0:6:2
+Title: In My Life Artist: The Beatles Album: Rubber Soul Date: 10/03/1965 Run Time: 0:2:38
+
+Albums Sorted by Number of Songs:
+Title: Setrak Setrakian Performing Chopin Artist: Setrak A. Setrakian Date: 02/02/1963 Number of Tracks: 8 Run Time:  1:34:58
+Title: Dark Side of the Moon Artist: Pink Floyd Date: 01/03/1973 Number of Tracks: 9 Run Time:  0:42:29
+Title: Every Good Boy Deserves Favour Artist: Moody Blues Date: 07/15/1971 Number of Tracks: 9 Run Time:  0:40:8
+Title: In Search of the Lost Chord Artist: Moody Blues Date: 04/21/1968 Number of Tracks: 9 Run Time:  0:42:17
+Title: Rubber Soul Artist: The Beatles Date: 10/03/1965 Number of Tracks: 14 Run Time:  0:37:42
+
+Movies Sorted by Date:
+Title: George of the Jungle Studio: RKO Starring: Doris Day and Johnny Weismuller Date: 02/29/2000 Run Time: 1:33:27
+Title: North by Northwest Studio: Columbia Starring: Cary Grant Date: 01/13/2011 Run Time: 2:31:23
+Title: Randy Rides Alone Studio: RKO Radio Starring: John Wayne Date: 01/13/2011 Run Time: 1:21:33
+Title: Star Trek 2, the Wrath of Khan Studio: MGM Starring: Leonard Nimoy Date: 01/13/2011 Run Time: 2:0:13
+Title: Bourne Repitition Studio: Disney Starring: Matt Damon Date: 03/30/2012 Run Time: 2:12:59
+
+Music Sorted by Run Time:
+Title: In My Life Artist: The Beatles Album: Rubber Soul Date: 10/03/1965 Run Time: 0:2:38
+Title: One More Time to Live Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:4:37
+Title: Our Guessing Game Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 07/15/1971 Run Time: 0:5:43
+Title: The Story in her Eyes Artist: Moody Blues Album: Every Good Boy Deserves Favour Date: 08/16/1971 Run Time: 0:6:2
+Title: Aqualung Artist: Jethro Tull Album: Aqualung Date: 06/28/1971 Run Time: 0:6:31
+Title: Rubber Soul Artist: The Beatles Date: 10/03/1965 Number of Tracks: 14 Run Time:  0:37:42
+Title: Every Good Boy Deserves Favour Artist: Moody Blues Date: 07/15/1971 Number of Tracks: 9 Run Time:  0:40:8
+Title: In Search of the Lost Chord Artist: Moody Blues Date: 04/21/1968 Number of Tracks: 9 Run Time:  0:42:17
+Title: Dark Side of the Moon Artist: Pink Floyd Date: 01/03/1973 Number of Tracks: 9 Run Time:  0:42:29
+Title: Setrak Setrakian Performing Chopin Artist: Setrak A. Setrakian Date: 02/02/1963 Number of Tracks: 8 Run Time:  1:34:58
