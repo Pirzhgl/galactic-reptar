@@ -13,7 +13,7 @@ public class TemperatureConversion
    public static void main( String [] args )
    {
       //***** 1. declare any constants here
-			
+	        final double FREEZING_POINT = 32.0;
       //***** 2.  declare temperature in Fahrenheit as an int 
 	  	int temperatureFahrenheit = 100;
 	  		
