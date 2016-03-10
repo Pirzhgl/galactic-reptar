@@ -13,26 +13,22 @@ public class TemperatureConversion
    public static void main( String [] args )
    {
       //***** 1. declare any constants here
-			
+		final double FREEZING_POINT = 32.0;
       //***** 2.  declare temperature in Fahrenheit as an int 
 	  	int temperatureFahrenheit = 100;
 	  		
       //***** 3. calculate equivalent Celsius temperature
-	  	double fsubtract = temperatureFahrenheit - 32;
-		double fmultiply = fsubtract * 5;
-		double fdivide = fmultiply / 9;
+	  	double c = (temperatureFahrenheit - FREEZING_POINT) * ((double) 5 / 9);
 // 		System.out.println(fdivide);
-	  	double temperatureCelsius = fdivide;
+	  	//double temperatureCelsius = fdivide;
 	  		
       //***** 4. output the temperature in Celsius
-	   System.out.println(temperatureFahrenheit + " degrees Fahrenheit is equal to " + temperatureCelsius + " degrees Celcius");
+	   System.out.println("Celsius: " + c);
 												  
       //***** 5. convert Celsius temperature back to Fahrenheit
-		int outputFahrenheit = (int)(((temperatureCelsius * 9) / 5) + 32);
+		temperatureFahrenheit = (int)(((double) 9 / 5) * c + FREEZING_POINT);
 				
       //***** 6. output Fahrenheit temperature to check correctness 
-		System.out.println( temperatureCelsius + " degrees C should be equal to " + outputFahrenheit + " degrees F.");
-		
-				
+		System.out.print("Fahrenheit " + temperatureFahrenheit);
    }
 } 
